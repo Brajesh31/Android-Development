@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Doa.DashboardDoa">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="-30dp"
+        android:id="@+id/ivBackgroundDoa"
+        android:src="@drawable/ungu"
+        />
+
+    <TextView
+        android:id="@+id/tvJudulDoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Doa dan \ndzikir \nApp"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logoDoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvJudulDoa"
+        android:src="@drawable/logo_doa"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="-90dp"
+        />
+
+    <TextView
+        android:id="@+id/doaZikir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivBackgroundDoa"
+        android:text="Pilihan doa dan \ndzikir"
+        android:textColor="#9B5CC2"
+        android:textStyle="bold"
+        android:layout_marginTop="-20dp"
+        android:textSize="25dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnSelengkapnya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/doaZikir"
+        android:layout_below="@+id/ivBackgroundDoa"
+        android:backgroundTint="#BFA7A7"
+        android:text="Selengkapnya"
+        android:layout_marginTop="-20dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <ScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/doaZikir"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listDoa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+</RelativeLayout>

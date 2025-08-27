@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BelajarAndroidActivity</string>
+    <string name="des">
+        Amazing view can be enjoyed from above of refresing city
+    </string>
+    <string name="des2">
+        My boys are standing at the edge of the jetty, and either they will jump they
+        won\'t jump. It is really summer, June, under the great bell of the sky, on the island
+        on which i was raised
+    </string>
+    <string name="des3">
+        The book is quite cool, i like the storyline
+    </string>
+    <string name="judul_doa"><![CDATA[Doa & Dzikir app]]></string>
+    <string name="doa_harian"><![CDATA[Doa & Dzikir harian]]></string>
+    <string name="doa_latin">Alhamdulillahilladzi \'aafaani fii jasadi warodda ilaiya ruuhi wa adzinaa lii bidzikrihi</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.belajarandroidactivity.Calculator">
+
+    <ImageView
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        android:src="@drawable/calculator"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart calculator"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Angka 1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/inputAngka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka 1: "
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Angka 2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/inputAngka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka 2: "
+        android:layout_marginLeft="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="+"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginStart="60sp"
+            android:backgroundTint="#4CAF50"
+            />
+
+        <Button
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="-"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="20sp"
+            android:backgroundTint="#E91E63"
+            />
+
+        <Button
+            android:id="@+id/persen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="%"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="20sp"
+            android:backgroundTint="#FFC107"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/kali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="x"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginStart="60sp"
+            android:backgroundTint="#2196F3"
+            />
+
+        <Button
+            android:id="@+id/bagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="/"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="20sp"
+            android:backgroundTint="#673AB7"
+            />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="clear"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="20sp"
+            android:backgroundTint="#7D8382"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E65100"
+        android:layout_weight="10"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</LinearLayout>

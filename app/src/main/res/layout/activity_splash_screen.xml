@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9B5CC2"
+    tools:context="com.example.splashScreen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/ivDoaLogo"
+        app:lottie_rawRes="@raw/animasi"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        tools:ignore="ImageContrastCheck"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvJudul"
+        android:text="@string/judul_doa"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/ivDoaLogo"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.belajarandroidactivity.Dashboard">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ibMenu"
+        android:background="@drawable/baseline_sort_24"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:background="@drawable/rectangle"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/ivBackground"
+        />
+
+    <ImageView
+        android:id="@+id/IvPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/ducky"
+        android:layout_marginStart="180dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibMenu"
+        android:text="Big sale"
+        android:textSize="24sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginStart="30sp"
+        android:textColor="#F57C00"
+        android:id="@+id/sale"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10%"
+        android:textSize="40sp"
+        android:textColor="#F57C00"
+        android:textStyle="bold"
+        android:layout_below="@+id/sale"
+        android:layout_marginStart="30sp"
+        android:id="@+id/sepuluh"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Limited time"
+        android:textSize="20sp"
+        android:textColor="#9A948D"
+        android:layout_below="@+id/sepuluh"
+        android:layout_marginStart="30sp"
+        android:id="@+id/limited"
+        />
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/limited"
+        android:background="#B1B0B0"
+        android:layout_marginTop="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popular"
+        android:text="Popular"
+        android:layout_marginStart="30dp"
+        android:textSize="18sp"
+        android:textColor="#F57C00"
+        android:layout_below="@+id/garis"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvArrival"
+        android:text="New Arrival"
+        android:layout_marginStart="30dp"
+        android:textSize="18sp"
+        android:textColor="#ACA196"
+       android:layout_centerHorizontal="true"
+        android:layout_below="@+id/garis"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBrand"
+        android:text="Brand"
+        android:layout_marginEnd="20dp"
+        android:textSize="18sp"
+        android:textColor="#ACA196"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/garis"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10sp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popular"
+        app:cardCornerRadius="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/gambarProduk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:src="@drawable/rubic"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/merek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvArrival"
+        android:layout_toRightOf="@+id/tvArrival"
+        android:text="MG 00 Rubic N Raiser"
+        android:textSize="20sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginStart="-90sp"
+        />
+
+    <TextView
+        android:id="@+id/produk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bantar"
+        android:layout_below="@+id/merek"
+        android:layout_toRightOf="@+id/tvArrival"
+        android:textSize="20sp"
+        android:textColor="#938C8C"
+        android:layout_marginStart="-90sp"
+        android:layout_marginTop="5sp"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$81.59"
+        android:layout_below="@+id/produk"
+        android:layout_toRightOf="@+id/tvArrival"
+        android:textSize="20sp"
+        android:textColor="#F47C00"
+        android:textStyle="bold"
+        android:layout_marginStart="-90sp"
+        android:layout_marginTop="5sp"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/produk"
+        app:cardCornerRadius="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/gambarProduk2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:src="@drawable/minion"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/merek2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/harga"
+        android:layout_toRightOf="@+id/tvArrival"
+        android:text="Minion X23 N Chuuya"
+        android:textSize="20sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginStart="-90sp"
+        />
+
+    <TextView
+        android:id="@+id/produk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wesker"
+        android:layout_below="@+id/merek2"
+        android:layout_toRightOf="@+id/tvArrival"
+        android:textSize="20sp"
+        android:textColor="#938C8C"
+        android:layout_marginStart="-90sp"
+        android:layout_marginTop="5sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$500.32"
+        android:layout_below="@+id/produk2"
+        android:layout_toRightOf="@+id/tvArrival"
+        android:textSize="20sp"
+        android:textColor="#F47C00"
+        android:textStyle="bold"
+        android:layout_marginStart="-90sp"
+        android:layout_marginTop="5sp"
+        />
+</RelativeLayout>
