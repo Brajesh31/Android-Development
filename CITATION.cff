@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Belajar Android Activity"
+message: "If you use this Android learning project, please cite the repository and its author."
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Brajesh
+repository-code: "https://github.com/Brajesh31/Android-Development"
+license: MIT
+keywords:
+  - android
+  - kotlin
+  - androidx
+  - learning-project
