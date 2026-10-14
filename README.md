@@ -50,4 +50,4 @@ Keep UI strings in resources, preserve lifecycle safety when adding asynchronous
 
 Original code and documentation are released under the MIT License. Fonts, images, icons, and third-party libraries may have separate licenses.
 
-Last updated: 2026-10-14 00:02 UTC
+Last updated: 2026-10-14 05:54 UTC
