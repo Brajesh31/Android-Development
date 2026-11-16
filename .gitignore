@@ -1,15 +1,34 @@
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+*.iws
+out/
+
+# Local Android SDK path
 local.properties
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Captures and local diagnostics
+captures/
+*.hprof
+*.log
+
+# Signing and local secrets
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
