@@ -1,0 +1,51 @@
+name: Android bug report
+description: Report a reproducible build, Activity, layout, or runtime issue.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remove personal information, signing credentials, tokens, and private logs before submitting.
+  - type: input
+    id: device
+    attributes:
+      label: Device or emulator
+      placeholder: Pixel emulator API 34
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Android Studio, JDK, and Gradle versions
+    validations:
+      required: true
+  - type: input
+    id: screen
+    attributes:
+      label: Activity or screen
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized Logcat or Gradle output
+      description: Never include credentials, personal data, or signing information.
