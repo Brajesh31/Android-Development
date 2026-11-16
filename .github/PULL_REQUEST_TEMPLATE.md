@@ -1,16 +1,33 @@
-## Summary
+## 📝 Summary
 
-Describe the Android learning feature or documentation change.
+Describe the Activity, layout, resource, build, or documentation change and its purpose.
 
-## Validation
+## 📱 Android impact
 
-- [ ] `gradlew.bat test`
-- [ ] `gradlew.bat assembleDebug`
-- [ ] `gradlew.bat connectedAndroidTest` (when an emulator/device is available)
-- [ ] Tested affected screen on an API 29+ device/emulator
+- Affected screen or component:
+- Minimum/target/compile SDK impact:
+- Manifest or permission changes:
+- Navigation or Intent changes:
+- Resource/theme impact:
 
-## Security and accessibility
+## ♿ Accessibility
 
-- [ ] Manifest exports and permissions are intentional
-- [ ] No secrets, keystores, or personal data are included
-- [ ] Strings and content descriptions are localized/accessibility-aware
+- [ ] TalkBack labels and focus reviewed.
+- [ ] Large font and display scaling checked.
+- [ ] Color contrast reviewed.
+- [ ] Touch target and keyboard access reviewed.
+- [ ] Day/night theme checked.
+
+## 🧪 Validation
+
+- [ ] Gradle sync/build completed.
+- [ ] Relevant JVM tests run.
+- [ ] Instrumentation tests run where applicable.
+- [ ] Manual device/emulator testing completed.
+- [ ] Logcat reviewed.
+- [ ] Documentation and changelog updated.
+- [ ] No signing keys, credentials, or private data included.
+
+## ⚠️ Limitations
+
+List known issues, untested devices, or platform-specific constraints.
