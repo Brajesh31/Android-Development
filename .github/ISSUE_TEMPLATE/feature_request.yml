@@ -1,0 +1,26 @@
+name: Android feature request
+description: Suggest an Android screen, accessibility, or developer-experience improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: user_need
+    attributes:
+      label: User or learning need
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: platform
+    attributes:
+      label: Platform impact
+      description: Mention permissions, Android versions, lifecycle, or device capabilities.
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation plan
