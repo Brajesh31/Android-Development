@@ -1,10 +1,22 @@
-# Changelog
+# 📜 Changelog
+
+This file records verified repository changes. Proposed work belongs in ROADMAP.md.
 
 ## [Unreleased]
 
-- Added project-specific documentation and governance guidance.
+### Added
+- Expanded Android project README and documentation navigation.
+- Added feature catalogue, architecture, lifecycle, navigation, and resource guides.
+- Added accessibility, security/permission, testing, build/release, and third-party notice guides.
+- Added maintainer and governance documentation.
+- Added Android issue templates and an Android build workflow.
 
-## [0.1.0] - 2025-01-01
+### Clarified
+- The project is a learning application with multiple Activity and XML examples.
+- Multiple launcher intent filters require review before production distribution.
+- Test source templates do not establish full application test coverage.
+- The root MIT licence does not automatically apply to third-party fonts, images, icons, or libraries.
 
-- Added Kotlin activity and XML layout exercises.
-- Added prayer, list, calculator, camera, travel, and detail demonstrations.
+## Changelog maintenance
+
+Record meaningful user-facing changes, platform compatibility changes, security fixes, and release notes. Add dates and version identifiers only when an actual release or versioned change exists. Do not claim tests passed unless they were run.
