@@ -4,11 +4,11 @@
 
 Keep the project buildable, preserve its educational scope, review lifecycle and permissions, maintain documentation, and ensure published claims match tested app behaviour.
 
-## Change review
+## Change Review
 
 Review manifest component and launcher configuration, Activity lifecycle correctness, Intent targets and extra validation, runtime permission purpose and denial behaviour, XML layout adaptation and accessibility, resource and third-party asset licences, Gradle plugin and dependency compatibility, test evidence, backup/data-extraction configuration, and secrets.
 
-## Release preparation
+## Release Preparation
 
 1. Review the full diff.
 2. Run Gradle sync and debug build.
@@ -22,11 +22,11 @@ Review manifest component and launcher configuration, Activity lifecycle correct
 10. Prepare release signing outside Git.
 11. Update CHANGELOG.md and release notes.
 
-## Dependency maintenance
+## Dependency Maintenance
 
 Do not upgrade Gradle, Kotlin, Android Gradle Plugin, compile SDK, and libraries together without compatibility analysis. Review dependency advisories and licences.
 
-## Routine checklist
+## Routine Checklist
 
 - [ ] Review issues and pull requests.
 - [ ] Check Gradle and CI status.
