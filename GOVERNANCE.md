@@ -4,11 +4,11 @@
 
 Android Development is an educational Android application demonstrating Activities, layouts, adapters, models, and platform interactions. Governance aims to keep changes accurate, safe, accessible, and maintainable.
 
-## Maintainer model
+## Maintainer Model
 
 The repository is maintained by its owner. Contributions are reviewed through GitHub. This document does not establish a committee, foundation, or guaranteed review schedule.
 
-## Decision principles
+## Decision Principles
 
 - Correct Android lifecycle and component behaviour.
 - Least-privilege permissions and exported components.
@@ -18,7 +18,7 @@ The repository is maintained by its owner. Contributions are reviewed through Gi
 - Dependency and asset licence awareness.
 - Honest documentation of current and planned functionality.
 
-## Contribution lifecycle
+## Contribution Lifecycle
 
 Substantial changes should describe the screen, behaviour, platform version, permission impact, and validation plan. Review should consider source, manifest, resources, tests, accessibility, and privacy.
 
